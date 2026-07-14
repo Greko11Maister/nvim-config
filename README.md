@@ -2,6 +2,22 @@
 
 Leader key = `Space`
 
+## Instalación en una PC nueva
+
+```bash
+# 1. Clonar la config
+git clone git@github.com:Greko11Maister/nvim-config.git ~/.config/nvim
+
+# 2. Instalar dependencias del sistema
+brew install neovim tree-sitter-cli
+brew install --cask font-jetbrains-mono-nerd-font
+
+# 3. Abrir nvim (lazy.nvim instala todo automáticamente)
+nvim
+```
+
+> La Nerd Font se configura después en la terminal: Preferencias → Perfil → Fuente → `JetBrainsMono Nerd Font`.
+
 ## Barra de archivos (neo-tree)
 
 | Atajo | Acción |
